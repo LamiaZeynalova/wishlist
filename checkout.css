@@ -1,0 +1,42 @@
+#checkout-items{
+    width: 60%;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.cardsTotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 50px;
+    font-weight: 500;
+    border-top: 3px solid grey;
+    padding-top: 10px;
+    
+}
+.cardsTotal button {
+    width: max-content;
+    padding: 15px 25px;
+    font-size: 30px;
+    background-color: bisque;
+    
+}
+.checkout-image{
+    width: 200px;
+    height: 200px;
+}
+.delete-checkout-product{
+    display: block;
+    margin-top: 10px;
+    padding: 10px 40px;
+    background-color: bisque;
+    width: max-content;
+}
+button:hover{
+    background-color: black;
+    color:white
+}
